@@ -1,0 +1,15 @@
+/* FUENTE SI SE TRAE DE MANERA LOCAL
+@font-face{
+  font-family: 'Qahiri';
+  src: url('typography/Qahiri/Qahiri-Regular.ttf') format('truetype');
+  font-family: 'Roboto';
+  src: url('typography/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+
+$roboto: 'Roboto', sans-serif;
+
+*/
+body {
+  font-family: $font-family;
+}

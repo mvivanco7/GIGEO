@@ -1,0 +1,29 @@
+/* LAYOUT: MAIN
+========================================================================
+== */
+/* Base */
+.main {
+  padding-top: 1em;
+  border: 1px solid $platinum;
+  /* Message Dashboard */
+  &__videos {
+    text-align: left;
+
+    .p_bold {
+      font-size: small;
+      color:$dark-jungle;
+      font-weight: bold;
+
+    }
+
+    p {
+      margin: 0;
+      font-size: $x-small;
+      color:$outer-space;
+    }
+
+    // img {
+    //   border-radius: 50%;
+    // }
+  }
+}

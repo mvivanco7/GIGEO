@@ -1,0 +1,49 @@
+// -----------------------------------------------------------------------------
+// Este archivo contiene las variables sass.
+// -----------------------------------------------------------------------------
+
+// 1.- Esquema Patron de colores corporativos
+
+// First Color Scheme
+$white: #FFF;
+$platinum: #E8EBE4;
+$gray: #BEC1BB;
+// Second Color Scheme
+$blue-bell: #A491D2;
+$soap: #CDC3E6;
+$pale-lavander: #D4DCFF;
+//Third Color Scheme
+$dark-jungle: #1B1F21;
+$outer-space: #444749;
+$old-silver: #828485;
+
+// 2.- Typos de fuente de letras corporativas
+
+//Font Family
+$font-family: 'Roboto', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+// Font Weight
+// Font Weight
+$regular: 400;
+$bold: 700;
+// Font Sizes
+$large: 45px;
+$medium: 16px;
+$small: 14px;
+$x-small: 10px;
+
+// $primary:$white;
+// $secondary:$gray;
+// $footer:$primary;
+$header_height:100vh;
+$header_img:url("../img/imagen1.png");
+
+// 4.Menu responsive
+$heightcontainer:115px;
+$topheadercontainer:0;
+// $tophamburger:math.div($heightcontainer, 3);
+// $tophamburger:($heightcontainer/3);
+$toplayout_drawer_d:$heightcontainer;
+$width_layout-drawer_m:50%;
+$width_layout-drawer_d:100%;
